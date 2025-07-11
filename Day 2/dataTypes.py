@@ -27,3 +27,6 @@ print(f"{range_list} : {type(range_list)}")  # Print the range list
 
 frozenset_example = frozenset([1, 2, 3, 4])  # Frozenset
 print(f"{frozenset_example} : {type(frozenset_example)}")
+
+dict_example = {"name": "Alice", "age": 30}  # Dictionary
+print(f"{dict_example} : {type(dict_example)}")  # Print the dictionary and
