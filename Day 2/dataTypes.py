@@ -29,4 +29,6 @@ frozenset_example = frozenset([1, 2, 3, 4])  # Frozenset
 print(f"{frozenset_example} : {type(frozenset_example)}")
 
 dict_example = {"name": "Alice", "age": 30}  # Dictionary
+
+dict_example["city"] = "New York"  # Adding a new key-value pair
 print(f"{dict_example} : {type(dict_example)}")  # Print the dictionary and
